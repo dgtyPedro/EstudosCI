@@ -27,6 +27,7 @@ class BaseController extends Controller
      * @var CLIRequest|IncomingRequest
      */
     protected $request;
+    
 
     /**
      * An array of helpers to be loaded automatically upon
@@ -35,7 +36,7 @@ class BaseController extends Controller
      *
      * @var array
      */
-    protected $helpers = [];
+    protected $helpers = ["form", "path"];
 
     /**
      * Constructor.

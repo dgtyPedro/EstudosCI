@@ -329,3 +329,7 @@ html.writer-html5 .rst-content dl[class]:not(.option-list):not(.field-list):not(
 	font-size: 9px;
 	line-height: 1;
 }
+
+.navbarleft{
+	margin-left: 100px;
+}
