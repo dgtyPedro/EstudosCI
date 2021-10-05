@@ -23,12 +23,15 @@ class Home extends BaseController
         $data['mapa'] = directory_map('../public/', 1, FALSE);
         $data['mapa2'] = directory_map('../public/', 2, FALSE);
         $data['mapa3'] = directory_map('../', 1, TRUE);
-
+        $data['files'] = $this->request->getFiles();
         echo View('download', $data);
 
-        if ($file!==null){
+        if ($file=='Action'){
             return $this->response->download(ROOTPATH.'/writable/uploads/ola.php', null);
         }
+
+
+        
 
 
 

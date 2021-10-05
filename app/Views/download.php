@@ -12,7 +12,7 @@
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 10%;
         text-decoration: none;
     }
     a{
@@ -60,7 +60,33 @@
 <button type="button" class="btn btn-dark"><a href="<?php echo base_url()?>/public/Home/Download/Action">Clique aqui para baixar um arquivo usando o CodeIgniter.</a></button>
 <hr>
 <h2>Upload</h2>
-<p>Digitar aqui</p>
+<p>O CI4 nos ajuda muito também na parte de Upload de Arquivos, o PHP padrão tem bastante ferramentas nessa área porém muitas delas 
+  não são das mais seguras e confiáveis. O uso de <code>$_FILES</code> tem já algumas brechas conhecidas então o CodeIgniter vem
+  para tampar muitos dos problemas já conhecidos e que eles identificaram. 
+</p>
+<p>No CodeIgniter a linha de código mais usada com certeza vai ser a <code>$this->request->getFiles().</code> Apartir
+desse request conseguimos além de pegar todas as informações do arquivo, como tamanho e extensão, podemos também decidir se vamos querer
+gravar ele em algum banco de dados, se ele será armazenado em alguma pasta local e etc. </p>
+<p>No exemplo abaixo iremos determinar um array que irá conter todos os dados do 
+  arquivo enviado, ficará algo como: <code>$files = $this->request->getFiles()</code> e após iremos printar o resultaado com 
+<code>print_r($files)</code>. Esse assunto é bem extenso, a sessão de Manipulação de Arquivos irá complementar um pouco sobre o que
+ é possível fazer com esses arquivos. Caso queira, coloque seu arquivo abaixo e clique no Enviar, a aplicação mostrará as informações
+dos dados.</p>
+
+
+<form action="" method="post"
+enctype="multipart/form-data">
+<input type="file" name="uploadf">
+<input type="submit" name="submit" class="btn btn-dark">
+</form>
+<br>
+<h6>Dados do Arquivo:</h4>
+<?php echo '<pre>'?>
+<?php print_r($files);?>
+<?php echo '</pre>'?>
+
+
+
 
 <hr>
 <h2>Manipulação de Arquivos</h2>
@@ -70,6 +96,7 @@
 </p>
 <div class='exemplos'>
 <h4>Visualização de dados do arquivo</h4>
+<p>Usando a lista de requests mostradas abaixo conseguimos pegar qualquer informação de qualquer arquivo no sistema.</p>
 <table class="table">
   <thead>
     <tr>
@@ -84,7 +111,7 @@
   <tbody>
     <tr>
       <td><strong>Resultados</strong></td>
-      <td>?php echo $basename?></td>
+      <td><?php echo $basename?></td>
       <td><?php echo $tamanho?> bytes</td>
       <td><?php echo $realpath?></td>
       <td><?php echo $perms?></td>
@@ -102,7 +129,7 @@
   <br>
   <hr>
 <h4>Visualização de mapeamento de pastas do aplicativo (usando <code><a href="https://codeigniter.com/user_guide/helpers/filesystem_helper.html" class='link'>directory_map()</a></code>)</h4>
-
+<p>Com o <code>directory_map()</code> podemos também ver a organização de pastas da aplicação.</p>
 <div class="container ">
   <div class="row" >
     <div class="col-sm border" style="padding: 10px;">
@@ -143,6 +170,13 @@ nome da pasta nós podemos também definir um novo nome ao arquivo após a mudan
 .</p>
 
 </div>
+  </div>
+<hr>
+<h2>Conclusão</h2>
+<p>O que eu mostrei foi somente uma fração do que é possível fazer com arquivos no CodeIgniter, realmente as possibilidades
+  são infinitas nesse framework e a parte de arquivos em especial se mostra muito mais segura, simples e eficaz do que a dada no 
+  PHP convencional.
+</p>
 
 
 
