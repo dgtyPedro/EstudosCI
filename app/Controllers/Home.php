@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers;
-
+use CodeIgniter\I18n\Time;
 
 class Home extends BaseController
 {
@@ -43,8 +43,23 @@ class Home extends BaseController
     }
 
 
-    public function cookie(){
-        echo View('cookie');
+    public function session(){
+
+        $myTime = new Time('now');
+        $secao = \Config\Services::session();
+        $today       = Time::createFromDate();
+        $agent = $this->request->getUserAgent();
+        $dados = [
+            'id'  => session_id(),
+            'ip'     => $_SERVER['SERVER_PORT'],
+            'agent' => $_SERVER['HTTP_USER_AGENT'],
+            'horario' => $myTime,
+            'agent2' => $agent->getBrowser().' '.$agent->getVersion(),
+        ];
+        $secao->set($dados);
+        
+        echo View('session', $dados);
+       
     }
 
 

@@ -27,7 +27,7 @@
 ESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUI -->
 <ul class="list-group list-group-flush list-group-item-dark" style="background-color: #252525;">
   <a href="<?php echo base_url()?>/public/Home/Download/"><li class="list-group-item" style="background-color: #252525; color:white">Manutenção de Arquivos</li></a>
-  <a href="<?php echo base_url()?>/public/Home/Cookie/"><li class="list-group-item" style="background-color: #252525; color:white">Cookies no CI4</li></a>
+  <a href="<?php echo base_url()?>/public/Home/Session/"><li class="list-group-item" style="background-color: #252525; color:white">Sessões no CI4</li></a>
   <a href="<?php echo base_url()?>/public/Home/Time/"><li class="list-group-item" style="background-color: #252525; color:white">Biblioteca de Tempo</li></a>
   <a href="<?php echo base_url()?>/public/Home/Image/"><li class="list-group-item" style="background-color: #252525; color:white">Manipulação de Imagens</li></a>
 </ul>
