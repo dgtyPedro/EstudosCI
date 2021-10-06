@@ -64,7 +64,17 @@ class Home extends BaseController
 
 
     public function time(){
-        echo View('time');
+        $time = Time::parse('March 9, 2016 12:00:00', 'America/Chicago');
+
+        $data = [
+            'agora' => new Time('now'),
+            'chicago' => new Time('now', 'America/Chicago', 'en_US'),
+            'parse' => Time::parse('next Tuesday', 'America/Chicago', 'en_US'),
+            'parse2' => Time::parse('March 9, 2016 12:00:00', 'America/Chicago'),
+            'hoje' => $time->humanize(),
+
+        ];
+        echo View('time', $data);
     }
 
     public function image(){
