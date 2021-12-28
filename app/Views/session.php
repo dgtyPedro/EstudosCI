@@ -39,7 +39,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="<?php echo base_url()?>/public/">Voltar</a>
+  <a class="navbar-brand" href="<?php echo base_url()?>">Voltar</a>
   </div>
     </nav>
 

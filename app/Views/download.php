@@ -39,7 +39,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="<?php echo base_url()?>/public/">Voltar</a>
+  <a class="navbar-brand" href="<?php echo base_url()?>">Voltar</a>
   </div>
     </nav>
 
@@ -57,7 +57,7 @@
   a mais eficiente é a <code>$this->response->download()</code>. Nela precisamos só passar o path do arquivo dentro do () e quando retornada, o 
   navegador faz o download do arquivo. 
 </p>
-<button type="button" class="btn btn-dark"><a href="<?php echo base_url()?>/public/Home/Download/Action">Clique aqui para baixar um arquivo usando o CodeIgniter.</a></button>
+<button type="button" class="btn btn-dark"><a href="<?php echo base_url()?>/Home/Download/Action">Clique aqui para baixar um arquivo usando o CodeIgniter.</a></button>
 <hr>
 <h2>Upload</h2>
 <p>O CI4 nos ajuda muito também na parte de Upload de Arquivos, o PHP padrão tem bastante ferramentas nessa área porém muitas delas 

@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/EstudosCI/';
+    public $baseURL = 'https://estudosci.000webhostapp.com';
 
     /**
      * --------------------------------------------------------------------------

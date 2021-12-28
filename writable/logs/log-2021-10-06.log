@@ -1,0 +1,341 @@
+CRITICAL - 2021-10-06 10:58:47 --> File not found: /public/image.png
+#0 C:\wamp64\www\EstudosCI\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/image.p...')
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('/public/image.p...', true)
+#2 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('/public/image.p...')
+#3 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#4 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 10:58:57 --> File not found: /public/image.png
+#0 C:\wamp64\www\EstudosCI\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/image.p...')
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('/public/image.p...', true)
+#2 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('/public/image.p...')
+#3 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#4 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 10:58:58 --> File not found: /public/image.png
+#0 C:\wamp64\www\EstudosCI\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/image.p...')
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('/public/image.p...', true)
+#2 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('/public/image.p...')
+#3 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#4 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 10:59:00 --> File not found: /public/image.png
+#0 C:\wamp64\www\EstudosCI\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/image.p...')
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('/public/image.p...', true)
+#2 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('/public/image.p...')
+#3 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#4 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 10:59:08 --> File not found: /public/image.png
+#0 C:\wamp64\www\EstudosCI\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/image.p...')
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('/public/image.p...', true)
+#2 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('/public/image.p...')
+#3 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#4 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 11:00:08 --> File not found: /public/image.png
+#0 C:\wamp64\www\EstudosCI\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/public/image.p...')
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('/public/image.p...', true)
+#2 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('/public/image.p...')
+#3 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#4 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 12:03:32 --> imagecreatefrompng(): '../public/image.jpg' is not a valid PNG file
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\wamp64\\www\\E...', 351, Array)
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\GDHandler.php(351): imagecreatefrompng('../public/image...')
+#2 C:\wamp64\www\EstudosCI\system\Images\Handlers\GDHandler.php(314): CodeIgniter\Images\Handlers\GDHandler->getImageResource('../public/image...', 3)
+#3 C:\wamp64\www\EstudosCI\system\Images\Handlers\GDHandler.php(226): CodeIgniter\Images\Handlers\GDHandler->ensureResource()
+#4 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(99): CodeIgniter\Images\Handlers\GDHandler->save('../public/image...')
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#6 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-06 12:03:43 --> imagecreatefrompng(): '../public/image.jpg' is not a valid PNG file
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'imagecreatefrom...', 'C:\\wamp64\\www\\E...', 351, Array)
+#1 C:\wamp64\www\EstudosCI\system\Images\Handlers\GDHandler.php(351): imagecreatefrompng('../public/image...')
+#2 C:\wamp64\www\EstudosCI\system\Images\Handlers\GDHandler.php(314): CodeIgniter\Images\Handlers\GDHandler->getImageResource('../public/image...', 3)
+#3 C:\wamp64\www\EstudosCI\system\Images\Handlers\GDHandler.php(226): CodeIgniter\Images\Handlers\GDHandler->ensureResource()
+#4 C:\wamp64\www\EstudosCI\app\Controllers\Home.php(99): CodeIgniter\Images\Handlers\GDHandler->save('../public/image...')
+#5 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(802): App\Controllers\Home->image()
+#6 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\EstudosCI\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\EstudosCI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-06 13:33:43 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:34:51 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:35:01 --> File not found: ../public/image.jpg
+#0 /storage/ssd4/450/17718450/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('../public/image...')
+#1 /storage/ssd4/450/17718450/system/Images/Handlers/BaseHandler.php(148): CodeIgniter\Files\File->__construct('../public/image...', true)
+#2 /storage/ssd4/450/17718450/app/Controllers/Home.php(82): CodeIgniter\Images\Handlers\BaseHandler->withFile('../public/image...')
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->image()
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-06 13:38:33 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:09 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:10 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:10 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:11 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:25 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:25 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:26 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:26 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:26 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:27 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:39:28 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:40:04 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:49:13 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:55:28 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute('Home/Time')
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Home/Time')
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:55:30 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute('Home/Time')
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle('Home/Time')
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 13:55:41 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/ssd4/4...')
+#1 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 13:55:43 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/ssd4/4...')
+#1 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 13:55:46 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/ssd4/4...')
+#1 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 13:55:46 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/ssd4/4...')
+#1 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 13:55:47 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/ssd4/4...')
+#1 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 13:55:47 --> syntax error, unexpected ','
+#0 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/storage/ssd4/4...')
+#1 /storage/ssd4/450/17718450/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /storage/ssd4/450/17718450/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /storage/ssd4/450/17718450/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-10-06 13:58:34 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:10:25 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:10:56 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\ola.php
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:18:30 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:18:31 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/writable\uploads\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:19:28 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/public_html\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:19:29 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/public_html\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:19:29 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/public_html\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:19:29 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/public_html\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-06 17:19:30 --> SplFileInfo::getMTime(): stat failed for /storage/ssd4/450/17718450/public_html\oi.txt
+#0 /storage/ssd4/450/17718450/app/Controllers/Home.php(18): SplFileInfo->getMTime()
+#1 /storage/ssd4/450/17718450/system/CodeIgniter.php(802): App\Controllers\Home->download()
+#2 /storage/ssd4/450/17718450/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /storage/ssd4/450/17718450/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /storage/ssd4/450/17718450/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

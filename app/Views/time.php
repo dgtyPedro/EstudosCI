@@ -39,7 +39,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="<?php echo base_url()?>/public/">Voltar</a>
+  <a class="navbar-brand" href="<?php echo base_url()?>">Voltar</a>
   </div>
     </nav>
 
@@ -75,9 +75,9 @@
       <td><strong>Código para obtenção dos resultados</strong></td>
       <td><code>new Time('now')</code></td>
       <td><code>new Time('now', 'America/Chicago', 'en_US')</code></td>
-      <td><code>Time::parse('next Tuesday', 'America/Chicago', 'en_US')</code></td>
-      <td><code>Time::parse('March 9, 2016 12:00:00', 'America/Chicago')</code></td>
-      <td><code>Time::parse('March 9, 2016 12:00:00', 'America/Chicago')->humanize()</code></td>
+      <td><code>Time::parse('next Tuesday', 'America/Sao_Paulo', 'en_US')</code></td>
+      <td><code>Time::parse('March 9, 2016 12:00:00', 'America/Sao_Paulo')</code></td>
+      <td><code>Time::parse('March 9, 2016 12:00:00', 'America/Sao_Paulo')->humanize()</code></td>
     </tr>
   </table>
 <p>Para mais informações deixarei o <code><a href="https://codeigniter4.github.io/userguide/libraries/time.html">link</a> </code>da biblioteca.</p>
