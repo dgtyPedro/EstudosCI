@@ -13,21 +13,21 @@ class Home extends BaseController
 
     public function download($file = null){
         helper('filesystem');
-        $path = ROOTPATH.'public_html/arquivo.php';
+        $path = ROOTPATH.'public/arquivo.php';
         $arquivo = new \CodeIgniter\Files\File($path);
         $data['lastalt'] = $arquivo->getMTime();
         $data['realpath'] = $arquivo->getRealPath();
         $data['perms'] = $arquivo->getPerms();
         $data['basename'] = $arquivo->getBasename();
         $data['tamanho'] = $arquivo->getSize();
-        $data['mapa'] = directory_map('../public_html/', 1, FALSE);
-        $data['mapa2'] = directory_map('../public_html/', 2, FALSE);
-        $data['mapa3'] = directory_map('../public_html/', 1, TRUE);
+        $data['mapa'] = directory_map('../public/', 1, FALSE);
+        $data['mapa2'] = directory_map('../public/', 2, FALSE);
+        $data['mapa3'] = directory_map('../public/', 1, TRUE);
         $data['files'] = $this->request->getFiles();
         echo View('download', $data);
 
         if ($file=='Action'){
-            return $this->response->download(ROOTPATH.'public_html/arquivo.php', null);
+            return $this->response->download(ROOTPATH.'public/arquivo.php', null);
         }
 
 
@@ -78,27 +78,27 @@ class Home extends BaseController
 
     public function image(){
         $image = \Config\Services::image()
-        ->withFile('../public_html/image.jpg')
-        ->save('../public_html/image2.jpg');
+        ->withFile('../public/image.jpg')
+        ->save('../public/image2.jpg');
 
         $image = \Config\Services::image()
-        ->withFile('../public_html/image.jpg')
+        ->withFile('../public/image.jpg')
         ->reorient()
         ->rotate(90)
-        ->save('../public_html/image3.jpg');
+        ->save('../public/image3.jpg');
 
         $image = \Config\Services::image()
-        ->withFile('../public_html/image.jpg')
+        ->withFile('../public/image.jpg')
         ->fit(100, 200, 'center')
-        ->save('../public_html/image4.jpg');
+        ->save('../public/image4.jpg');
 
         $image = \Config\Services::image('imagick')
-        ->withFile('../public_html/image.jpg')
+        ->withFile('../public/image.jpg')
         ->flip('horizontal')
-        ->save('../public_html/image5.jpg');
+        ->save('../public/image5.jpg');
 
         $image = \Config\Services::image('imagick')
-        ->withFile('../public_html/image.jpg')
+        ->withFile('../public/image.jpg')
         ->text('COPYRIGHT DO CODEIGNITER', [
             'color'      => '#fff',
             'opacity'    => 1,
@@ -115,7 +115,7 @@ class Home extends BaseController
             'vAlign'     => 'top',
             'fontSize'   => 20
         ])
-        ->save('../public_html/image6.jpg');
+        ->save('../public/image6.jpg');
 
         echo View('image');
     }
