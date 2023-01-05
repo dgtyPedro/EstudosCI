@@ -78,27 +78,27 @@ class Home extends BaseController
 
     public function image(){
         $image = \Config\Services::image()
-        ->withFile('../public/image.jpg')
-        ->save('../public/image2.jpg');
+        ->withFile('../image.jpg')
+        ->save('../image2.jpg');
 
         $image = \Config\Services::image()
-        ->withFile('../public/image.jpg')
+        ->withFile('../image.jpg')
         ->reorient()
         ->rotate(90)
-        ->save('../public/image3.jpg');
+        ->save('../image3.jpg');
 
         $image = \Config\Services::image()
-        ->withFile('../public/image.jpg')
+        ->withFile('../image.jpg')
         ->fit(100, 200, 'center')
-        ->save('../public/image4.jpg');
+        ->save('../image4.jpg');
 
         $image = \Config\Services::image('imagick')
-        ->withFile('../public/image.jpg')
+        ->withFile('../image.jpg')
         ->flip('horizontal')
-        ->save('../public/image5.jpg');
+        ->save('../image5.jpg');
 
         $image = \Config\Services::image('imagick')
-        ->withFile('../public/image.jpg')
+        ->withFile('../image.jpg')
         ->text('COPYRIGHT DO CODEIGNITER', [
             'color'      => '#fff',
             'opacity'    => 1,
@@ -115,7 +115,7 @@ class Home extends BaseController
             'vAlign'     => 'top',
             'fontSize'   => 20
         ])
-        ->save('../public/image6.jpg');
+        ->save('../image6.jpg');
 
         echo View('image');
     }
