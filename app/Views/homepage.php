@@ -29,7 +29,7 @@ ESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE AQUIESCREVE 
   <a href="<?php echo base_url()?>/Home/Download/"><li class="list-group-item" style="background-color: #252525; color:white">Manutenção de Arquivos</li></a>
   <a href="<?php echo base_url()?>/Home/Session/"><li class="list-group-item" style="background-color: #252525; color:white">Sessões no CI4</li></a>
   <a href="<?php echo base_url()?>/Home/Time/"><li class="list-group-item" style="background-color: #252525; color:white">Biblioteca de Tempo</li></a>
-  <a href="<?php echo base_url()?>/Home/Image/"><li class="list-group-item" style="background-color: #252525; color:white">Manipulação de Imagens</li></a>
+<!--  <a href="--><?php //echo base_url()?><!--/Home/Image/"><li class="list-group-item" style="background-color: #252525; color:white">Manipulação de Imagens</li></a>-->
   <a href="https://github.com/dgtyPedro"><li class="list-group-item" style="background-color: #252525; color:white"><strong>Ir para meu Perfil no Git</strong></li></a>
   <a href="https://github.com/dgtyPedro/EstudosCI"><li class="list-group-item" style="background-color: #252525; color:white"><strong>Voltar para Repositório</strong></li></a>
 </ul>
